@@ -46,6 +46,8 @@ set t_Co=256
 set list
 set listchars=trail:·
 
+set wildmenu
+
 " pathogen.vim
 call pathogen#infect()
 
