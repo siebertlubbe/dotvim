@@ -51,10 +51,10 @@ set wildmenu
 " pathogen.vim
 call pathogen#infect()
 
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
+" noremap <Up> <nop>
+" noremap <Down> <nop>
+" noremap <Left> <nop>
+" noremap <Right> <nop>
 imap ;; <Esc>
 
 " map leader comma to NERDTree
@@ -83,3 +83,6 @@ let g:ctrlp_user_command = {
 
 " powerline configuration
 let g:Powerline_symbols='unicode'
+
+" add the unnamed reg to the default clipboard
+set clipboard+=unnamed
